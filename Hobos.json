@@ -1,0 +1,39 @@
+{
+  "$type": "System.Collections.Generic.List`1[[HoboConsolePrjct.Model.Hobo.Hobo, HoboWPF]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "HoboConsolePrjct.Model.Hobo.Hobo, HoboWPF",
+      "Id": "e17da233-2361-436e-b3d8-7b1bd0ecdce7",
+      "Name": "FGHFGH",
+      "Health": 83,
+      "Energy": 92,
+      "Satiation": 86,
+      "EmotionalState": 65,
+      "Money": 1980,
+      "inventory": {
+        "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+        "stacks": {
+          "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+              "Id": "3fb7b37f-ec2a-49b1-8eda-cbcf7faf4d8b",
+              "Item": {
+                "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+                "Id": "6e4c7d46-a46d-4adc-9d61-1cb5fe39dce0",
+                "Price": 50,
+                "Name": "Хлеб",
+                "Pleasure": 2,
+                "Nutrition": 5,
+                "EnergyBoost": 1,
+                "Healthy": 3,
+                "ItemTypeNum": 0
+              },
+              "Count": 1
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

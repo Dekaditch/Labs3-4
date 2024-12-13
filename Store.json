@@ -1,0 +1,254 @@
+{
+  "$type": "HoboConsolePrjct.Model.Places.Stores, HoboWPF",
+  "Id": "7343e91f-d8b5-4d1c-96e4-7bf84f0fdb46",
+  "Name": "SHOP",
+  "inventory": {
+    "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+    "stacks": {
+      "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "3fb7b37f-ec2a-49b1-8eda-cbcf7faf4d8b",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "6e4c7d46-a46d-4adc-9d61-1cb5fe39dce0",
+            "Price": 50,
+            "Name": "Хлеб",
+            "Pleasure": 2,
+            "ItemTypeNum": 0,
+            "Nutrition": 5,
+            "EnergyBoost": 1,
+            "Healthy": 3
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "ae8e98dd-0280-4dd5-893f-53a1cb237344",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "f4d49b61-49df-4fad-9110-15f779cc06a2",
+            "Price": 70,
+            "Name": "Шоколад",
+            "Pleasure": 10,
+            "ItemTypeNum": 0,
+            "Nutrition": 3,
+            "EnergyBoost": 5,
+            "Healthy": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "cc04d2e5-7285-4746-a067-3d608c45425e",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "a09cce15-20cc-4a8b-ac10-4783af60fba7",
+            "Price": 60,
+            "Name": "Доширак",
+            "Pleasure": 5,
+            "ItemTypeNum": 0,
+            "Nutrition": 8,
+            "EnergyBoost": 3,
+            "Healthy": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "d49c6485-e779-415d-b2c4-0a9ffefdf71b",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "6db6abb1-af50-4026-80bd-8fe758911fd0",
+            "Price": 150,
+            "Name": "Вяленое мясо",
+            "Pleasure": 8,
+            "ItemTypeNum": 0,
+            "Nutrition": 10,
+            "EnergyBoost": 6,
+            "Healthy": 5
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "8e24f17c-8706-464c-af2e-63dfe2f1ea6b",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "0eadd7f1-f6be-449c-a033-28c357fd2452",
+            "Price": 300,
+            "Name": "Борщ",
+            "Pleasure": 15,
+            "ItemTypeNum": 0,
+            "Nutrition": 15,
+            "EnergyBoost": 6,
+            "Healthy": 8
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "02899ba6-7cb1-4d95-b39e-13d767ff0b92",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "85f7afee-9a43-42ff-8794-69c132502e46",
+            "Price": 25,
+            "Name": "Бутылка воды",
+            "Pleasure": 1,
+            "ItemTypeNum": 0,
+            "Nutrition": 1,
+            "EnergyBoost": 0,
+            "Healthy": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "d46f43e1-598c-4a0e-ab64-6eba5e01e051",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "b2c8a7b3-989a-4c4e-8c09-a20eff9addd2",
+            "Price": 60,
+            "Name": "Сок",
+            "Pleasure": 3,
+            "ItemTypeNum": 0,
+            "Nutrition": 3,
+            "EnergyBoost": 2,
+            "Healthy": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "ac83b41f-850d-4452-a486-296f9706706d",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "bc97ed27-104c-4ec4-b586-f62f6166ff81",
+            "Price": 70,
+            "Name": "Баночка колы",
+            "Pleasure": 5,
+            "ItemTypeNum": 0,
+            "Nutrition": 3,
+            "EnergyBoost": 2,
+            "Healthy": 0
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "8de2de37-e75b-4bba-a5a3-3a67f18e79a1",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "72a90b89-699f-4510-8e24-b01676bafa69",
+            "Price": 200,
+            "Name": "Водка",
+            "Pleasure": 30,
+            "ItemTypeNum": 0,
+            "Nutrition": 1,
+            "EnergyBoost": -5,
+            "Healthy": -10
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "0a75efb8-a2bd-4da0-8a2a-729b6472a2b9",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "9c3d5a85-3022-4272-8475-31619081fea4",
+            "Price": 120,
+            "Name": "Энергетик",
+            "Pleasure": 10,
+            "ItemTypeNum": 0,
+            "Nutrition": 7,
+            "EnergyBoost": 20,
+            "Healthy": -5
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "29b9b25f-2ba5-4314-b178-aa9e3558c89a",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Food, HoboWPF",
+            "Id": "33416018-bf7b-4bd2-9f10-7b6717d4b0fb",
+            "Price": 800,
+            "Name": "Божественная пища",
+            "Pleasure": 100,
+            "ItemTypeNum": 0,
+            "Nutrition": 100,
+            "EnergyBoost": 100,
+            "Healthy": 80
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "9c08d7ff-a7dc-4bcb-b9a4-49ae187fc7f9",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Clothes, HoboWPF",
+            "Id": "e8086b59-31b8-40fe-a038-a4d73b8f60dd",
+            "Price": 600,
+            "Name": "Второсортные вещи",
+            "Pleasure": 10,
+            "ItemTypeNum": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "24c1e590-e23d-4e70-8131-7cdf22d74d0a",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Clothes, HoboWPF",
+            "Id": "d64b6cee-7863-44b8-9735-c93677693d8a",
+            "Price": 1200,
+            "Name": "Обычная одежда",
+            "Pleasure": 20,
+            "ItemTypeNum": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "5c039d4a-d843-48e0-9692-417be6ce586d",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Clothes, HoboWPF",
+            "Id": "b84a3b76-c97d-47da-bb3f-0abc30c1a0d5",
+            "Price": 3000,
+            "Name": "Дорогая одежда",
+            "Pleasure": 40,
+            "ItemTypeNum": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "11178cbd-4dd8-42e3-bb39-63a508468d49",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Clothes, HoboWPF",
+            "Id": "6fc85408-e233-4faf-91e4-c6a9b18767a8",
+            "Price": 8000,
+            "Name": "Люхари одежда",
+            "Pleasure": 60,
+            "ItemTypeNum": 1
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "d76fa7dc-2c66-4986-8e1e-8ffa0002ae0a",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Clothes, HoboWPF",
+            "Id": "3af034f1-e362-45c1-9c74-914a05ddf3f3",
+            "Price": 20000,
+            "Name": "БАЛЕНСИАГА",
+            "Pleasure": 100,
+            "ItemTypeNum": 1
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+}

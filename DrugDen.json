@@ -1,0 +1,88 @@
+{
+  "$type": "HoboConsolePrjct.Model.Places.DrugDen, HoboWPF",
+  "Id": "d35a471a-4573-4c90-b952-79978aac6ffb",
+  "Name": "Drug Dealer SHOP",
+  "inventory": {
+    "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+    "stacks": {
+      "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "067d976e-81bd-44b6-a875-86559df88088",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Drugs, HoboWPF",
+            "Id": "c01060cd-65c9-4216-81cb-fe2b866b0bd4",
+            "Price": 400,
+            "Name": "Марья Ивановна",
+            "Pleasure": 25,
+            "Healthy": -2,
+            "EnergyBoost": -5,
+            "ItemTypeNum": 3
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "167041af-48a0-415c-9bd2-5cbdf4ad5ea9",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Drugs, HoboWPF",
+            "Id": "c092fb93-57e0-412a-81cc-2ad18cb5c79a",
+            "Price": 600,
+            "Name": "Миф",
+            "Pleasure": 20,
+            "Healthy": -6,
+            "EnergyBoost": 10,
+            "ItemTypeNum": 3
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "e638d482-01d0-4c86-9870-cb35ef545ace",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Drugs, HoboWPF",
+            "Id": "e75db212-cd51-4430-b89d-f72a383d0654",
+            "Price": 1000,
+            "Name": "Метафора",
+            "Pleasure": 40,
+            "Healthy": -15,
+            "EnergyBoost": 20,
+            "ItemTypeNum": 3
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "9026dbcc-8977-4f06-9700-ec2588025c56",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Drugs, HoboWPF",
+            "Id": "885565fe-5492-4f8a-8570-42b90685726f",
+            "Price": 1200,
+            "Name": "Крокодил",
+            "Pleasure": 20,
+            "Healthy": -25,
+            "EnergyBoost": 60,
+            "ItemTypeNum": 3
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "d7fbc4ef-c37f-48b7-baa1-f25583c9c1cd",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Drugs, HoboWPF",
+            "Id": "73593cae-a70c-40cb-8fc7-ce093c5326c6",
+            "Price": 1500,
+            "Name": "Хмурый",
+            "Pleasure": 70,
+            "Healthy": -40,
+            "EnergyBoost": 90,
+            "ItemTypeNum": 3
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+}

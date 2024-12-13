@@ -1,0 +1,52 @@
+{
+  "$type": "HoboConsolePrjct.Model.Places.EstateEngency, HoboWPF",
+  "Id": "0059946a-4035-4db8-a783-523cf9f0817b",
+  "Name": "Estate Agency",
+  "inventory": {
+    "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+    "stacks": {
+      "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "68c8a770-d54a-4f77-9c95-e02b22ee8d6b",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.RealEstate, HoboWPF",
+            "Id": "10bf2fe6-e0d3-46d0-9c7e-c75bc3a9fd23",
+            "Price": 200,
+            "Name": "Замок из картонных коробок",
+            "Pleasure": 10,
+            "ItemTypeNum": 4
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "c14d9951-7ca6-4784-b573-9972f73c20c7",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.RealEstate, HoboWPF",
+            "Id": "cf97f38f-3ce1-4c7f-8127-27eb501ea413",
+            "Price": 12000,
+            "Name": "Квартира",
+            "Pleasure": 100,
+            "ItemTypeNum": 4
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "5564539f-664d-493c-9dd2-1b497c680601",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.RealEstate, HoboWPF",
+            "Id": "6fd4a4a0-ded6-4cda-85d3-7e06be8d6a80",
+            "Price": 600000,
+            "Name": "Дом",
+            "Pleasure": 100,
+            "ItemTypeNum": 4
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "$type": "HoboConsolePrjct.Model.Events.AlmsEvents, HoboWPF",
+  "Id": "0c639a3c-f66f-4e3b-9a5f-3c9bac72ef4d",
+  "EventsList": {
+    "$type": "HoboConsolePrjct.Model.InventoryEvents.EventsList, HoboWPF",
+    "events": {
+      "$type": "System.Collections.Generic.List`1[[HoboConsolePrjct.Model.Events.IEvents, HoboWPF]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "47849e66-9d39-414c-b083-07eb7812ecb1",
+          "Text": "Вы попросили милостыню и получили 10 монет!",
+          "Pleasure": 5,
+          "Healthy": -2,
+          "EnergyBoost": -2,
+          "Nutrition": -2,
+          "Money": 10,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "645e27c5-0c04-45dd-80d4-b62b7b4db426",
+          "Text": "Вы попросили милостыню и получили 25 монет!",
+          "Pleasure": 7,
+          "Healthy": -2,
+          "EnergyBoost": -2,
+          "Nutrition": -2,
+          "Money": 25,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "84b49007-731e-42d2-9754-1a53dec26b87",
+          "Text": "Вы попросили милостыню и получили 50 монет!",
+          "Pleasure": 10,
+          "Healthy": -2,
+          "EnergyBoost": -2,
+          "Nutrition": -3,
+          "Money": 50,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "db7384f0-b0db-44d3-b725-c828d850ea36",
+          "Text": "Ух ты! Кто-то был действительно щедр! Вы получили 100 монет",
+          "Pleasure": 12,
+          "Healthy": -2,
+          "EnergyBoost": -2,
+          "Nutrition": -4,
+          "Money": 100,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "44bbdb84-b9de-4a6b-80e0-6429a8b1c0e4",
+          "Text": "Вы просили милостыню, но ничего не получили...",
+          "Pleasure": -2,
+          "Healthy": -2,
+          "EnergyBoost": -2,
+          "Nutrition": -5,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        }
+      ]
+    },
+    "Id": "00000000-0000-0000-0000-000000000000"
+  }
+}

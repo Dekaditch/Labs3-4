@@ -1,0 +1,192 @@
+{
+  "$type": "HoboConsolePrjct.Model.Event.GarbageEvents, HoboWPF",
+  "Id": "01275987-d64a-4c58-b4cd-d3a2228e5d7b",
+  "EventsList": {
+    "$type": "HoboConsolePrjct.Model.InventoryEvents.EventsList, HoboWPF",
+    "events": {
+      "$type": "System.Collections.Generic.List`1[[HoboConsolePrjct.Model.Events.IEvents, HoboWPF]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "63d3b233-24b3-448b-9983-0569357fb850",
+          "Text": "Ты нашел несколько бутылок!",
+          "Pleasure": 5,
+          "Healthy": -1,
+          "EnergyBoost": -2,
+          "Nutrition": -1,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+                  "Id": "2a9a37db-6d99-4937-b2c8-988b180656df",
+                  "Item": {
+                    "$type": "HoboConsole.Model.Items.Garbage, HoboWPF",
+                    "Id": "cd8de1da-723f-4e17-92a4-98dd1aecc7fe",
+                    "Price": 5,
+                    "Name": "Стеклянная бутылка",
+                    "Pleasure": 1,
+                    "Healthy": 0,
+                    "ItemTypeNum": 5
+                  },
+                  "Count": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "6d92a130-f333-46f3-90e6-3578da980092",
+          "Text": "Ты нашел несколько банок!",
+          "Pleasure": 5,
+          "Healthy": -1,
+          "EnergyBoost": -2,
+          "Nutrition": -1,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+                  "Id": "e4e563c4-5000-464f-88ac-5a1958c7de2d",
+                  "Item": {
+                    "$type": "HoboConsole.Model.Items.Garbage, HoboWPF",
+                    "Id": "03da543b-9f46-406f-9fc7-f3fcfffedf16",
+                    "Price": 3,
+                    "Name": "Жестяная банка",
+                    "Pleasure": 1,
+                    "Healthy": 0,
+                    "ItemTypeNum": 5
+                  },
+                  "Count": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "f723c242-a87d-4d17-8c8e-d0010b4bb1ea",
+          "Text": "Ты нашел бутылку!",
+          "Pleasure": 5,
+          "Healthy": -1,
+          "EnergyBoost": -2,
+          "Nutrition": -1,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+                  "Id": "02ea5620-8c81-4cb0-acbf-3af250983446",
+                  "Item": {
+                    "$type": "HoboConsole.Model.Items.Garbage, HoboWPF",
+                    "Id": "cd8de1da-723f-4e17-92a4-98dd1aecc7fe",
+                    "Price": 5,
+                    "Name": "Стеклянная бутылка",
+                    "Pleasure": 1,
+                    "Healthy": 0,
+                    "ItemTypeNum": 5
+                  },
+                  "Count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "382c76ca-692b-4e6b-9646-8cd338389074",
+          "Text": "Ты нашел банку!",
+          "Pleasure": 5,
+          "Healthy": -1,
+          "EnergyBoost": -2,
+          "Nutrition": -1,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+                  "Id": "a0a40ca9-9ab1-4ee1-af8c-089f45bbd80a",
+                  "Item": {
+                    "$type": "HoboConsole.Model.Items.Garbage, HoboWPF",
+                    "Id": "03da543b-9f46-406f-9fc7-f3fcfffedf16",
+                    "Price": 3,
+                    "Name": "Жестяная банка",
+                    "Pleasure": 1,
+                    "Healthy": 0,
+                    "ItemTypeNum": 5
+                  },
+                  "Count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "dbb71d2c-0562-4372-b5b5-fc3e856ebe74",
+          "Text": "Вы ничего не нашли...",
+          "Pleasure": -3,
+          "Healthy": -2,
+          "EnergyBoost": -2,
+          "Nutrition": -1,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "4ab1af10-1e13-4040-9e8f-2e438d25dbb7",
+          "Text": "Вы ничего не нашли и пострадали!",
+          "Pleasure": -5,
+          "Healthy": -5,
+          "EnergyBoost": -5,
+          "Nutrition": -1,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "29f2983c-5273-4a14-b966-737736fe5696",
+          "Text": "Ты нашел немного денег!",
+          "Pleasure": 5,
+          "Healthy": 0,
+          "EnergyBoost": 2,
+          "Nutrition": 0,
+          "Money": 5,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        }
+      ]
+    },
+    "Id": "00000000-0000-0000-0000-000000000000"
+  }
+}

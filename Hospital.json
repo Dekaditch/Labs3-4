@@ -1,0 +1,88 @@
+{
+  "$type": "HoboConsolePrjct.Model.Places.Hospital, HoboWPF",
+  "Id": "1af7a25e-e1b6-441b-9979-da2990b81f6f",
+  "Name": "Hospital",
+  "inventory": {
+    "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+    "stacks": {
+      "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "235166ab-5d76-4da8-83ad-6198529d9c40",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Medicine, HoboWPF",
+            "Id": "f655919a-dbe4-4d79-9124-4eaf2cc98a61",
+            "Price": 50,
+            "Name": "Пластырь",
+            "Pleasure": 5,
+            "Healthy": 7,
+            "EnergyBoost": 0,
+            "ItemTypeNum": 2
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "a500d48c-9f9b-44d5-a41e-82e00c75c1a9",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Medicine, HoboWPF",
+            "Id": "b0ef8760-74cd-4c4e-ba04-1cd8e8656288",
+            "Price": 100,
+            "Name": "Мазь",
+            "Pleasure": 5,
+            "Healthy": 16,
+            "EnergyBoost": 0,
+            "ItemTypeNum": 2
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "56d571a9-3487-4644-a75b-6361ebaf04d9",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Medicine, HoboWPF",
+            "Id": "b14b3dc2-aac1-43a7-85ac-e7e82cafce4a",
+            "Price": 150,
+            "Name": "Аспирин",
+            "Pleasure": 5,
+            "Healthy": 25,
+            "EnergyBoost": 1,
+            "ItemTypeNum": 2
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "195090be-6f0d-4703-857e-3f977eb2d888",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Medicine, HoboWPF",
+            "Id": "be40b613-f0f8-419f-b4a1-46dbe544a820",
+            "Price": 400,
+            "Name": "Нурофен",
+            "Pleasure": 10,
+            "Healthy": 50,
+            "EnergyBoost": 3,
+            "ItemTypeNum": 2
+          },
+          "Count": 1
+        },
+        {
+          "$type": "HoboConsole.Model.Stacks.StackItems, HoboWPF",
+          "Id": "d4fdd362-e991-4c5b-8e5c-821c8dd8ffb4",
+          "Item": {
+            "$type": "HoboConsole.Model.Items.Medicine, HoboWPF",
+            "Id": "78dc63b8-ce20-4ddb-a265-32f05b448599",
+            "Price": 1000,
+            "Name": "Панацея",
+            "Pleasure": 10,
+            "Healthy": 80,
+            "EnergyBoost": 5,
+            "ItemTypeNum": 2
+          },
+          "Count": 1
+        }
+      ]
+    }
+  }
+}

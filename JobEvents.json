@@ -1,0 +1,98 @@
+{
+  "$type": "HoboConsolePrjct.Model.Events.JobEvents, HoboWPF",
+  "Id": "ebc65bc4-e410-456f-8e05-04c3e22f53ec",
+  "EventsList": {
+    "$type": "HoboConsolePrjct.Model.InventoryEvents.EventsList, HoboWPF",
+    "events": {
+      "$type": "System.Collections.Generic.List`1[[HoboConsolePrjct.Model.Events.IEvents, HoboWPF]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "86a87138-3f8c-4492-acc7-d6cde079bc36",
+          "Text": "Вы работали на стройке и получили 250 монет",
+          "Pleasure": -10,
+          "Healthy": -5,
+          "EnergyBoost": -5,
+          "Nutrition": -10,
+          "Money": 250,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "cceedf3b-dd20-454e-a9cd-42cd6393e335",
+          "Text": "Вы раздавали листовки и получили 100 монет!",
+          "Pleasure": -5,
+          "Healthy": -2,
+          "EnergyBoost": -2,
+          "Nutrition": -6,
+          "Money": 100,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "e616a80d-62ba-4f39-b5ae-ebb0f4449c1c",
+          "Text": "Вы подмели двор и получили 150 монет",
+          "Pleasure": -7,
+          "Healthy": -3,
+          "EnergyBoost": -5,
+          "Nutrition": -5,
+          "Money": 150,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "4383a5ee-244e-407b-941d-0751da50854f",
+          "Text": "Вы вымыли полы в магазине и получили 125 монет",
+          "Pleasure": -6,
+          "Healthy": -3,
+          "EnergyBoost": -4,
+          "Nutrition": -2,
+          "Money": 125,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        },
+        {
+          "$type": "HoboConsolePrjct.Model.Events.EventHobo, HoboWPF",
+          "Id": "49cc208c-2157-4a97-844f-2e1749591fd3",
+          "Text": "Вы усердно трудились, но ничего не получили... Вас обманули!",
+          "Pleasure": -10,
+          "Healthy": -3,
+          "EnergyBoost": -5,
+          "Nutrition": -10,
+          "Money": 0,
+          "Inventory": {
+            "$type": "HoboConsolePrjct.Model.InventoryFolder.Inventory, HoboWPF",
+            "stacks": {
+              "$type": "System.Collections.Generic.List`1[[HoboConsole.Model.Stacks.IStack, HoboWPF]], System.Private.CoreLib",
+              "$values": []
+            }
+          }
+        }
+      ]
+    },
+    "Id": "00000000-0000-0000-0000-000000000000"
+  }
+}
